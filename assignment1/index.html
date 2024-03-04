@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
+            }
+        }
+    </script>
+
+    <!-- three.js scene -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <h1>Interactive Essay</h1>
+    <h1 class="Name">Brady Haskins</h1>
+
+    <!-- Part One -->
+    <section id="part-one">
+        <h2>1. Flatness</h2>
+
+        <p>A single shadow is cast upon the wall. A simple shape; a circle. <span class="Clickable" id="first-change">The circle slowly moves </span>down upon the cave wall until it completely leaves. Then after a few hours, it returns, slowly rising to the peak of the cave wall, then continuing its cycle. While the people in the cave have no concept of the Sun, this circle acts as such. As it descends, the people in the cave begin to rest, while as it ascends the people in the cave begin to awake. As the circle completely disappears from the wall, the people believe that it no longer exists. For all they know, it could be a completely new circle that they see whenever one reappears. Occasionally new shapes are added to the wall. These shapes are typically simple <span class="Clickable" id="second-change">squares</span>, <span class="Clickable" id="third-change">diamonds</span>, or <span class="Clickable" id="fourth-change">triangles</span>. These shapes will cross the bottom of the wall once, then, shortly after, cross the wall once more in the other direction. Sometimes though, a <span class="Clickable" id="fifth-change">strange shape</span> will cross the wall, one which their minds cannot comprehend. It morphs and distorts itself as it moves upon the wall. Occasionally, bits of it will disappear from the bottom of the wall, phasing out of the people’s concept of existence only to reappear shortly after. It is unlike anything the people have ever seen, as every other shape only moves across the wall while never changing their shape. It is a thing they cannot truly grasp due to only being able to see the shadow being cast. </p>
+
+        <p>The concept of Flatness describes a viewpoint or mindset that cannot change or is very limited; people seeing the world for what it holds, but not what it is. This is what the cave scene is depicting. These shadows on the cave wall are representative of a bigger picture, the circle quite literally acting as a Sun for the people in the cave, and the shapes acting as people going to and from work or another destination. The people in the cave only see it as a circle ascending and descending, and shapes crossing the wall. The people in the cave aren’t experiencing the world for what it truly is, instead only being given bread crumbs of the bigger picture. This limits their understanding of the world. While their “world” may also contain their version of the Sun, or people making trips, they merely see it as shapes upon a wall. 
+        </p>
+
+        <p> <span class="Clickable" id="continue-reading">Continue Reading</span></p>
+    </section>
+
+
+    <!-- Part Two -->
+    <section id="part-two" class="hidden">
+        <h2>2. Seeing Double</h2>
+
+        <p><span class="Clickable" id="final-change">Just behind the people of the cave wall is the world as it is.</span> The objects that create the shadows on the wall are here as fully realised shapes. The light source that produces the shadows of the cave is a simple sphere that emits its own light source. This light source then casts upon other shapes and produces the shadows that are seen by the people in the cave. The light sphere itself is never moving, only providing light for the objects to cast shadows with. The circle that would ascend and descend on the cave wall is just a sphere that rises and lowers behind the wall separating the people in the cave from the outside world. The shapes that cross the wall are also similar to how the circle worked, just horizontally instead of vertically. Though, while the triangle was produced by a pyramid, the square and the diamond triangles were both produced by a cube, just rotated differently in order to produce separate shadows. The shadow that created an incomprehensible shape is also just a 3D object, just a complex shape resembling a pretzel. 
+        </p>
+
+        <p>The concept of Seeing Double is describing the different ways things can be seen when shown from a different perspective. For example, some movies will contain a doppelganger scene where a character will have to choose between a doppelganger and the real person. The doppelganger is usually representative of how they believe the person with the choice sees the one they are imitating, while the real deal is how they truly view them. The cave scene and the real scene are perfect examples of this concept as well. People outside of the cave will see mostly everything, the light source, and the objects that are casting the shadows. They see what creates the world inside the cave, while the people in the cave are only shown what is being created from the outside world. Combining the two viewpoints would massively increase their overall understanding of both worlds. For example, the pretzel-like object that created the incomprehensible shape would be much easier to grasp, as now they have seen how it changes shape on the wall, and would be able to see the shadow on the wall as the 3D object. Another example would be how each object and shadow are connected. Moving one part of the system would require moving another, such as the shadows casted upon the wall. If the shadow moves, the object that is casting the shadow or the object emitting the light must move as well.</p>
+
+        <p> <span class="Clickable" id="restart">Restart</span></p>
+    </section>
+    <canvas class="webgl"></canvas>
+</body>

@@ -1,0 +1,50 @@
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px #c6c6c6;
+}
+
+.Name {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-left: 5%;
+    text-shadow: 0.5px 0.5px 1px #c6c6c6;
+}
+
+body {
+    width: 40%;
+    color: white;
+    margin-left: 2.5%;
+    text-shadow: 0.5px 0.5px 1px #c6c6c6;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.Clickable {
+    color: aqua;
+    cursor: grab;
+}
+
+.Clickable:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
