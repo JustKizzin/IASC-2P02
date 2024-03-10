@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>3D Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js",
+                "GLTFLoader": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+    </script>
+
+    <!-- three.js -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <!-- canvas -->
+    <canvas class="webgl"></canvas>
+
+    <!-- splash -->
+    <section class="splash">
+        <h1>Brady Haskins</h1>
+    </section>
+
+    <!-- content -->
+    <section class="content" id="first">
+        <h1>About me</h1>
+        <p>I'm Brady, an IASC Student at Brock University. I am most recognizable by my curly hair and larger figure.</p>
+        <p><span class="clickable" id="click1">View projects</span></p>
+    </section>
+
+    <section class="content hidden" id="second">
+        <h1>Interactive Essay</h1>
+        <p>This Interactive Essay goes over Plato's Allegory of the Cave. It is my take on the messages of both the Allegory of the Cave and terms and thoughts found throughout Unflattened.</p>
+        <p><span class="clickable" id="click2">Next project</span></p>
+    </section>
+
+    <section class="content hidden" id="third">
+        <h1>Data Visualization</h1>
+        <p>My Data Visualization project is on the book House of Leaves by Mark Z. Danielewski. It's about a young man who finds a documentary exploring a family's experiences with an impossibly large house.</p>
+        <p><span class="clickable" id="click3">Back to Home</span></p>
+    </section>
+
+    <section class="footer">
+        <p>Elf Girl by halloween. <a href="https://sketchfab.com/3d-models/elf-girl-52f2e84961b94760b7805c178890d644" target="_blank">View on Sketchfab</a>.</p>
+    </section>
+</body>
