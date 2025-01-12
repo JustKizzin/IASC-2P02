@@ -1,2 +1,1 @@
-# IASC-2P02
-Repository from 2P02 Course
+# IASC-2P02 - Brady Haskins
