@@ -7,9 +7,26 @@ body {
 }
 
 h1 {
+    color: rgb(51, 9, 148);
     font-size: 36px;
 }
 
 h2 {
+    color:rgb(6, 79, 112);
     font-size: 28px;
+}
+
+li {
+    font-size: 24px;
+    list-style-type: none;
+}
+
+a {
+    color:rgb(0, 255, 255);
+    text-decoration:none;
+}
+
+a:hover {
+    color:rgb(36, 51, 185);
+    text-decoration:line-through;
 }
